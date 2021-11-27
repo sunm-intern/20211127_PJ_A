@@ -13,7 +13,7 @@ body {
   line-height: 2;
   font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   /* >>TODO */
-  background-color: #dc143c;
+  background-color: #5ee98888;
 }
 
 *,
@@ -86,12 +86,28 @@ body {
 /* >>TODO */
 
 
+
+
+
 /* --------------------------------
  * about
  * -------------------------------- */
 .about {
   width: 80%;
   margin: auto
+}
+.grow-money{
+  width: 80%;
+  margin: auto
+}
+
+.growmoney-container{
+  display: flex;
+}
+
+.growmoney-item{
+  width: 75%;
+  margin: 10%;
 }
 
 .about-container {
